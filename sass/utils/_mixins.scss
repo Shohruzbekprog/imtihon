@@ -1,0 +1,45 @@
+@use "../utils/veriables" as var;
+
+@mixin btn($padding:10px 40p, $bg-color: var.$fourth, $color:#242424 ) {
+  padding: $padding;
+  border-radius: 100px;
+  font-size: 16px;
+  font-style: normal;
+  color: $color;
+  background-color: $bg-color;
+  font-weight: 700;
+  line-height: 175%;
+}
+
+@mixin primary-btn {
+  @include btn (_, var.$primary,  var.$fourth);
+  border: 1px solid #fff;
+  letter-spacing: 0.8px;
+  text-transform: capitalize;
+
+  &:hover {
+    background-color: var.$fourth;
+    color: #242424;
+    border: 1px solid #bb2339;
+  }
+}
+@mixin secondary-btn {
+  @include btn (8px 32px);
+  border: 1px solid var(--qizil, #bb2339);
+  letter-spacing: 0.64px;
+
+  &:hover {
+    background-color: var.$primary;
+    color: var.$fourth;
+  }
+}
+@mixin third-btn {
+  @include btn (12px 32px);
+  border: 1px solid var(--qizil, #bb2339);
+  letter-spacing: 0.64px;
+
+  &:hover {
+    background-color: var.$primary;
+    color: var.$fourth;
+  }
+}

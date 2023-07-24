@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/home.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+  <a id="backtop">
+    <img src="" alt="">
+  </a>
+  <header id="nav-bar">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-lg">
+        <img src="images/home/logo.png" alt="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end vh-100" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <img class="offcanvas-title" id="offcanvasNavbarLabel" src="images/home/logo.png" alt="">
+            <button class="btn-close" type="button" class="btn-close" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="news.html">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about-us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-us.html">Contact Us</a>
+              </li>
+            </ul>
+            <button class="nav__btn">
+
+              <div class="sign"><svg viewBox="0 0 512 512">
+                  <path
+                    d="M377.9 105.9L500.7 228.7c7.2 7.2 11.3 17.1 11.3 27.3s-4.1 20.1-11.3 27.3L377.9 406.1c-6.4 6.4-15 9.9-24 9.9c-18.7 0-33.9-15.2-33.9-33.9l0-62.1-128 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l128 0 0-62.1c0-18.7 15.2-33.9 33.9-33.9c9 0 17.6 3.6 24 9.9zM160 96L96 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-53 0-96-43-96-96L0 128C0 75 43 32 96 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32z">
+                  </path>
+                </svg></div>
+
+              <div class="text">Log In </div>
+            </button>
+
+
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="flavour">
+      <div class="container">
+        <div class="row flavour__father">
+          <div class="flavour__type col-12 col-md-6">
+            <h3>Chase the new Flavour</h3>
+            <h1>The Key To <br> Fine Dining</h1>
+            <p>Sit tellus lobortis sed senectus vivamus molestie. <br> Condimentum volutpat morbi facilisis quam
+              scelerisque <br> sapien. Et, penatibus aliquam amet tellus </p>
+            <button type="button" class="btn btn-danger">Explore Menu</button>
+          </div>
+          <div class="flavour__img col-12 col-md-6">
+            <img src="images/home/shashlik.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="popular">
+      <div class="container">
+        <div class="popular__type">
+          <h2>Popular Dishes</h2>
+        </div>
+        <div class="popular__card">
+          <div class="owl-carousel owl-theme carousel">
+            <div class="row item">
+              <div class="card col-12 col-md-4">
+                <div class="bg"><img src="images/home/kebab.png" alt="">
+                  <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                  <img src="images/home/star.png" alt="">
+                  <h2>$12.00</h2>
+                </div>
+                <div class="blob"></div>
+              </div>
+            </div>
+            <div class="row item">
+              <div class="card col-12 col-md-4">
+                <div class="bg"><img src="images/home/pizza.png" alt="">
+                  <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                  <img class="star" src="images/home/star.png" alt="">
+                  <h2>$12.00</h2>
+                </div>
+                <div class="blob"></div>
+              </div>
+            </div>
+            <div class="row item">
+              <div class="card col-12 col-md-4">
+                <div class="bg"><img src="images/home/gamburger.png" alt="">
+                  <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                  <img src="images/home/star.png" alt="">
+                  <h2>$12.00</h2>
+                </div>
+                <div class="blob"></div>
+              </div>
+            </div>
+            <div class="row item">
+              <div class="card col-12 col-md-4">
+                <div class="bg"><img src="images/home/free.png" alt="">
+                  <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                  <img src="images/home/star.png" alt="">
+                  <h2>$12.00</h2>
+                </div>
+                <div class="blob"></div>
+              </div>
+            </div>
+            <div class="row item">
+              <div class="card col-12 col-md-4">
+                <div class="bg"><img src="images/home/kebab.png" alt="">
+                  <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                  <img src="images/home/star.png" alt="">
+                  <h2>$12.00</h2>
+                </div>
+                <div class="blob"></div>
+              </div>
+            </div>
+            <div class="row item">
+              <div class="card col-12 col-md-4">
+                <div class="bg"><img src="images/home/pizza.png" alt="">
+                  <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                  <img src="images/home/star.png" alt="">
+                  <h2>$12.00</h2>
+                </div>
+                <div class="blob"></div>
+              </div>
+            </div>
+            <div class="row item">
+              <div class="card col-12 col-md-4">
+                <div class="bg"><img src="images/home/gamburger.png" alt="">
+                  <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                  <img src="images/home/star.png" alt="">
+                  <h2>$12.00</h2>
+                </div>
+                <div class="blob"></div>
+              </div>
+            </div>
+            <div class="row item">
+              <div class="card col-12 col-md-4">
+                <div class="bg"><img src="images/home/free.png" alt="">
+                  <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                  <img src="images/home/star.png" alt="">
+                  <h2>$12.00</h2>
+                </div>
+                <div class="blob"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      </div>
+    </section>
+    <section id="regular">
+      <div class="container">
+        <div class="row our">
+          <div class="our__img__fath">
+            <div class="our__img">
+              <img src="images/home/bite.png" alt="">
+            </div>
+          </div>
+          <div class="our__type">
+            <h2>Our Regular Menu Pack </h2>
+          </div>
+          <div class="our__tab1">
+            <ul class="nav nav-pills nav-fill" id="pills-tab" role="tablist">
+              <li class="nav-item border rounded-5 mx-3" role="presentation">
+                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                  type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                  All
+                </button>
+              </li>
+              <li class="nav-item border rounded-5 mx-3" role="presentation">
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                  type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                  Shawarma
+                </button>
+              </li>
+              <li class="nav-item border rounded-5 mx-3" role="presentation">
+                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+                  type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                  Turk Kebab
+                </button>
+              </li>
+              <li class="nav-item border rounded-5 mx-3" role="presentation">
+                <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled"
+                  type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">
+                  Hamburger Kebab
+                </button>
+              </li>
+              <li class="nav-item border rounded-5 mx-3" role="presentation">
+                <button class="nav-link" id="pills-doner-tab" data-bs-toggle="pill" data-bs-target="#pills-doner"
+                  type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">
+                  Doner kebab
+                </button>
+              </li>
+              <li class="nav-item border rounded-5 mx-3" role="presentation">
+                <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled"
+                  type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">
+                  Shish kebab
+                </button>
+              </li>
+              <li class="nav-item border rounded-5 mx-3" role="presentation">
+                <button class="nav-link" id="pills-pizza-tab" data-bs-toggle="pill" data-bs-target="#pills-pizza"
+                  type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">
+                  French fries Pizza
+                </button>
+              </li>
+              <li class="nav-item border rounded-5 mx-3" role="presentation">
+                <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled"
+                  type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">
+                  Desserts
+                </button>
+              </li>
+
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+                tabindex="0">
+                <div class="our__card row gy-4 mt-3">
+                  <div class="card col-12 col-md-4">
+                    <div class="card col-12 col-md-4">
+                      <div class="bg"><img src="images/home/shish kabob.png" alt="">
+                        <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                        <img src="images/home/star.png" alt="">
+                        <h2>$12.00</h2>
+                      </div>
+                      <div class="blob"></div>
+                    </div>
+                  </div>
+                  <div class="card col-12 col-md-4">
+                    <div class="bg"><img src="images/home/free.png" alt="">
+                      <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                      <img src="images/home/star.png" alt="">
+                      <h2>$12.00</h2>
+                    </div>
+                    <div class="blob"></div>
+                  </div>
+                  <div class="card col-12 col-md-4">
+                    <div class="bg"><img src="images/home/twister.png" alt="">
+                      <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                      <img src="images/home/star.png" alt="">
+                      <h2>$12.00</h2>
+                    </div>
+                    <div class="blob"></div>
+                  </div>
+                  <div class="card col-12 col-md-4">
+                    <div class="bg"><img src="images/home/desert.png" alt="">
+                      <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                      <img src="images/home/star.png" alt="">
+                      <h2>$12.00</h2>
+                    </div>
+                    <div class="blob"></div>
+                  </div>
+                  <div class="card col-12 col-md-4">
+                    <div class="bg"><img src="images/home/pizza.png" alt="">
+                      <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                      <img src="images/home/star.png" alt="">
+                      <h2>$12.00</h2>
+                    </div>
+                    <div class="blob"></div>
+                  </div>
+                  <div class="card col-12 col-md-4">
+                    <div class="bg"><img src="images/home/sandwitch.png" alt="">
+                      <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                      <img src="images/home/star.png" alt="">
+                      <h2>$12.00</h2>
+                    </div>
+                    <div class="blob"></div>
+                  </div>
+                  <div class="card col-12 col-md-4">
+                    <div class="bg"><img src="images/home/non kabob.png" alt="">
+                      <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                      <img src="images/home/star.png" alt="">
+                      <h2>$12.00</h2>
+                    </div>
+                    <div class="blob"></div>
+                  </div>
+                  <div class="card col-12 col-md-4">
+                    <div class="bg"><img src="images/home/gamburger.png" alt="">
+                      <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                      <img src="images/home/star.png" alt="">
+                      <h2>$12.00</h2>
+                    </div>
+                    <div class="blob"></div>
+                  </div>
+                  <div class="card col-12 col-md-4">
+                    <div class="bg"><img src="images/home/hot dog.png" alt="">
+                      <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                      <img src="images/home/star.png" alt="">
+                      <h2>$12.00</h2>
+                    </div>
+                    <div class="blob"></div>
+                  </div>
+                  <div class="card col-12 col-md-4">
+                    <div class="bg"><img src="images/home/chiken shashlik.png" alt="">
+                      <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                      <img src="images/home/star.png" alt="">
+                      <h2>$12.00</h2>
+                    </div>
+                    <div class="blob"></div>
+                  </div>
+                  <div class="card col-12 col-md-4">
+                    <div class="bg"><img src="images/home/free.png" alt="">
+                      <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                      <img src="images/home/star.png" alt="">
+                      <h2>$12.00</h2>
+                    </div>
+                    <div class="blob"></div>
+                  </div>
+                  <div class="card col-12 col-md-4">
+                    <div class="bg"><img src="images/home/desert.png" alt="">
+                      <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                      <img src="images/home/star.png" alt="">
+                      <h2>$12.00</h2>
+                    </div>
+                    <div class="blob"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                tabindex="0">
+                <div class="our__card row gy-4 mt-3">
+                  <div class="card col-12 col-md-4">
+                    <div class="bg"><img src="images/home/non kabob.png" alt="">
+                      <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                      <img src="images/home/star.png" alt="">
+                      <h2>$12.00</h2>
+                    </div>
+                    <div class="blob"></div>
+                  </div>
+                  <div class="card col-12 col-md-4">
+                    <div class="bg"><img src="images/home/twister.png" alt="">
+                      <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                      <img src="images/home/star.png" alt="">
+                      <h2>$12.00</h2>
+                    </div>
+                    <div class="blob"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+                tabindex="0">
+                <div class=" our__card row gy-4 mt-3">
+                  <div class="card col-12 col-md-4">
+                    <div class="bg"><img src="images/home/kebab.png" alt="">
+                      <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                      <img src="images/home/star.png" alt="">
+                      <h2>$12.00</h2>
+                    </div>
+                    <div class="blob"></div>
+                  </div>
+                  <div class="card col-12 col-md-4">
+                    <div class="bg"><img src="images/home/chiken shashlik.png" alt="">
+                      <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                      <img src="images/home/star.png" alt="">
+                      <h2>$12.00</h2>
+                    </div>
+                    <div class="blob"></div>
+                  </div>
+                  <div class="card col-12 col-md-4">
+                    <div class="bg"><img src="images/home/free.png" alt="">
+                      <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                      <img src="images/home/star.png" alt="">
+                      <h2>$12.00</h2>
+                    </div>
+                    <div class="blob"></div>
+                  </div>
+                  <div class="card col-12 col-md-4">
+                    <div class="bg"><img src="images/home/shish kabob.png" alt="">
+                      <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                      <img src="images/home/star.png" alt="">
+                      <h2>$12.00</h2>
+                    </div>
+                    <div class="blob"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab"
+                tabindex="0">
+                <div class=" our__card row gy-4 mt-3">
+                  <div class="card col-12 col-md-4">
+                    <div class="bg"><img src="images/home/gamburger.png" alt="">
+                      <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                      <img src="images/home/star.png" alt="">
+                      <h2>$12.00</h2>
+                    </div>
+                    <div class="blob"></div>
+                  </div>
+                  <div class="card col-12 col-md-4">
+                    <div class="bg"><img src="images/home/hot dog.png" alt="">
+                      <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                      <img src="images/home/star.png" alt="">
+                      <h2>$12.00</h2>
+                    </div>
+                    <div class="blob"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-doner" role="tabpanel" aria-labelledby="pills-disabled-tab"
+                tabindex="0">
+                <div class=" our__card row gy-4 mt-3">
+                  <div class="card col-12 col-md-4">
+                    <div class="bg"><img src="images/home/non kabob.png" alt="">
+                      <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                      <img src="images/home/star.png" alt="">
+                      <h2>$12.00</h2>
+                    </div>
+                    <div class="blob"></div>
+                  </div>
+                  <div class="card col-12 col-md-4">
+                    <div class="bg"><img src="images/home/shish kabob.png" alt="">
+                      <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                      <img src="images/home/star.png" alt="">
+                      <h2>$12.00</h2>
+                    </div>
+                    <div class="blob"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-pizza" role="tabpanel" aria-labelledby="pills-disabled-tab"
+                tabindex="0">
+                <div class=" our__card row gy-4 mt-3">
+                  <div class="card col-12 col-md-4">
+                    <div class="bg"><img src="images/home/pizza.png" alt="">
+                      <h3>Barbecue Shish kebab Shashlik <br> Skewer</h3>
+                      <img src="images/home/star.png" alt="">
+                      <h2>$12.00</h2>
+                    </div>
+                    <div class="blob"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-dessert" role="tabpanel" aria-labelledby="pills-disabled-tab"
+                tabindex="0">
+                Tab 5 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Illo, quidem!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="testimony">
+      <div class="container">
+        <div class="testimony__type">
+          <h3> <strong> Testimony </strong></h3>
+          <img src="images/home/spoon.png" alt="">
+          <h1><strong>Happy customers</strong></h1>
+        </div>
+        <div class="row testimony__coment">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="card col-12 col-md-4">
+                <div class="content">
+                  <div class="back">
+                    <div class="back-content">
+                      <img src="images/home/gamburger.png" alt="">
+                      <strong>Hamburger</strong>
+                    </div>
+                  </div>
+                  <div class="front">
+                    <div class="img">
+                      <img src="images/home/gamburger.png" alt="">
+                      <div class="circle">
+                      </div>
+                      <div class="circle" id="right">
+                      </div>
+                      <div class="circle" id="bottom">
+                      </div>
+                    </div>
+
+                    <div class="front-content">
+                      <small class="badge">Maria</small>
+                      <div class="description">
+                        <div class="title">
+                        </div>
+                        <p class="card-footer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing sit. Vulputate nulla lobortis mauris.</p>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card col-12 col-md-4">
+                <div class="content">
+                  <div class="back">
+                    <div class="back-content">
+                      <img src="images/home/kebab.png" alt="">
+                      <strong>Kebab</strong>
+                    </div>
+                  </div>
+                  <div class="front">
+
+                    <div class="img">
+                      <img src="images/home/kebab.png" alt="">
+                      <div class="circle">
+                      </div>
+                      <div class="circle" id="right">
+                      </div>
+                      <div class="circle" id="bottom">
+                      </div>
+                    </div>
+
+                    <div class="front-content">
+                      <small class="badge">Maria</small>
+                      <div class="description">
+                        <div class="title">
+                          <p class="title">
+                          </p>
+                        </div>
+                        <p class="card-footer">
+                        <p>Я всегда мечтал стать как мой кумир и иметь интерес...</p>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card col-12 col-md-4">
+                <div class="content">
+                  <div class="back">
+                    <div class="back-content">
+                      <img src="images/home/pizza.png" alt="">
+                      <strong>Pizza</strong>
+                    </div>
+                  </div>
+                  <div class="front">
+
+                    <div class="img">
+                      <img src="images/home/pizza.png" alt="">
+                      <div class="circle">
+                      </div>
+                      <div class="circle" id="right">
+                      </div>
+                      <div class="circle" id="bottom">
+                      </div>
+                    </div>
+
+                    <div class="front-content">
+                      <small class="badge">Maria</small>
+                      <div class="description">
+                        <div class="title">
+                          <p class="title">
+                          </p>
+                        </div>
+                        <p class="card-footer">
+                        <p>Я всегда мечтал стать как мой кумир и иметь интерес...</p>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card col-12 col-md-4">
+                <div class="content">
+                  <div class="back">
+                    <div class="back-content">
+                      <img src="images/home/gamburger.png" alt="">
+                      <strong>Hamburger</strong>
+                    </div>
+                  </div>
+                  <div class="front">
+                    <div class="img">
+                      <img src="images/home/gamburger.png" alt="">
+                      <div class="circle">
+                      </div>
+                      <div class="circle" id="right">
+                      </div>
+                      <div class="circle" id="bottom">
+                      </div>
+                    </div>
+
+                    <div class="front-content">
+                      <small class="badge">Maria</small>
+                      <div class="description">
+                        <div class="title">
+                        </div>
+                        <p class="card-footer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing sit. Vulputate nulla lobortis mauris.</p>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card col-12 col-md-4">
+                <div class="content">
+                  <div class="back">
+                    <div class="back-content">
+                      <img src="images/home/kebab.png" alt="">
+                      <strong>Kebab</strong>
+                    </div>
+                  </div>
+                  <div class="front">
+
+                    <div class="img">
+                      <img src="images/home/kebab.png" alt="">
+                      <div class="circle">
+                      </div>
+                      <div class="circle" id="right">
+                      </div>
+                      <div class="circle" id="bottom">
+                      </div>
+                    </div>
+
+                    <div class="front-content">
+                      <small class="badge">Maria</small>
+                      <div class="description">
+                        <div class="title">
+                          <p class="title">
+                          </p>
+                        </div>
+                        <p class="card-footer">
+                        <p>Я всегда мечтал стать как мой кумир и иметь интерес...</p>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card col-12 col-md-4">
+                <div class="content">
+                  <div class="back">
+                    <div class="back-content">
+                      <img src="images/home/pizza.png" alt="">
+                      <strong>Pizza</strong>
+                    </div>
+                  </div>
+                  <div class="front">
+
+                    <div class="img">
+                      <img src="images/home/pizza.png" alt="">
+                      <div class="circle">
+                      </div>
+                      <div class="circle" id="right">
+                      </div>
+                      <div class="circle" id="bottom">
+                      </div>
+                    </div>
+
+                    <div class="front-content">
+                      <small class="badge">Maria</small>
+                      <div class="description">
+                        <div class="title">
+                          <p class="title">
+                          </p>
+                        </div>
+                        <p class="card-footer">
+                        <p>Я всегда мечтал стать как мой кумир и иметь интерес...</p>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+    </section>
+    <section id="news">
+      <div class="container">
+        <div class="news__father">
+          <div class="news__img__fath">
+            <div class="news__img">
+              <img src="images/home/bite.png" alt="">
+            </div>
+          </div>
+          <div class="news__type">
+            <h3>News</h3>
+            <img src="images/home/redspoon.png" alt="">
+            <h1><strong> Gerícht updates</strong></h1>
+          </div>
+        </div>
+        <div class="row news__card">
+          <div class="news__card1 col-12 col-md-4">
+            <img src="images/home/meat.png" alt="">
+            <h2>Tips For Prepping And Caring <br> For Your Grill</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Volutpat mattis ipsum turpis elit elit
+              scelerisque <br> egestas mus in.</p>
+            <div class="news__read">
+              <a href="news.html">Read More</a>
+              <p>16 Apr 2021 </p>
+            </div>
+          </div>
+          <div class="news__card1 col-12 col-md-4">
+            <img src="images/home/meat.png" alt="">
+            <h2>Tips For Prepping And Caring <br> For Your Grill</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Volutpat mattis ipsum turpis elit elit
+              scelerisque <br> egestas mus in.</p>
+            <div class="news__read">
+              <a href="news.html">Read More</a>
+              <p>16 Apr 2021 </p>
+            </div>
+          </div>
+          <div class="news__card1 col-12 col-md-4">
+            <img src="images/home/meat.png" alt="">
+            <h2>Tips For Prepping And Caring <br> For Your Grill</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Volutpat mattis ipsum turpis elit elit
+              scelerisque <br> egestas mus in.</p>
+            <div class="news__read">
+              <a href="news.html">Read More</a>
+              <p>16 Apr 2021 </p>
+            </div>
+          </div>
+          <button class="btn"><a href="news.html">View More</a>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+      </div>
+    </section>
+    <section id="video">
+      <div class="container">
+        <div class="media__father">
+
+        </div>
+        <div class="media">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img src="images/home/Play.png" alt="">
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel"><iframe src="https://youtu.be/ANjIbjNj1So"
+                      frameborder="0"></iframe></h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="insta">
+      <div class="container">
+        <div class="gallery row">
+          <div class="gallery__type col-12 col-md-6">
+            <h3>Instagram</h3>
+            <img src="images/home/redspoon.png" alt="">
+            <h1>Photo Gallery</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit <br> Volutpat mattis ipsum turpis elit elit
+              scelerisque egestas mu.</p>
+              <button class="btn"><a href="news.html">View More</a></button>
+            </div>
+              <div class="gallery__img col-12 col-md-6"> 
+              <div class="owl-carousel owl-theme">
+                    <div class="item"><img src="images/home/ramen.png" alt=""></div>
+                    <div class="item"><img src="images/home/alco.png" alt=""></div>
+                    <div class="item"><img src="images/home/egg.png" alt=""></div>
+                    <div class="item"><img src="images/home/ramen.png" alt=""></div>
+                    <div class="item"><img src="images/home/alco.png" alt=""></div>
+                    <div class="item"><img src="images/home/egg.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section id="turk__card">
+      <div class="container">
+        <div class="father__card">
+          <div class="nest__card">
+            <h3>Newsletter</h3>
+            <h1>Subscribe to Our Newsletter</h1>
+            <p>And never miss latest Updates!</p>
+            <div class="nest__btn">
+              <input type="text" placeholder="Email Address">
+              <button>Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="foot">
+    <div class="container">
+      <div class="row father__foot">
+        <div class="contact__foot col-12 col-md-4">
+          <h2>Contact Us</h2>
+          <p>9 W 53rd St, London, NY 10019, UK</p>
+          <p>+1 212-344-1230 <br>
+            +1 212-555-1230</p>
+        </div>
+        <div class="logo__foot col-12 col-md-4">
+          <img src="images/home/turkish.png" alt="">
+          <p>"The best way to find yourself is to lose yourself in the <br> service of others.”</p>
+          <div class="social__foot">
+            <img src="images/home/face.png" alt="">
+            <img src="images/home/twit.png" alt="">
+            <img src="images/home/insta.png" alt="">
+            <p>2022 Pop online. All Rights reserved.</p>
+          </div>
+        </div>
+        <div class="work__foot col-12 col-md-4">
+          <h2>Working Hours</h2>
+          <p>Monday-Friday: <br>
+            08:00 am -12:00 am</p>
+            <p>Saturday-Sunday: <br>
+              07:00am -11:00 pm</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+    integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/script.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
